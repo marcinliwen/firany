@@ -1,16 +1,14 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Produkujemy firany i zasłony
+image: /img/eduard-militaru-Q4PvX80itZ0-unsplash.jpg
+heading: O firanach wiemy wszystko
+subheading: 'dbamy o to, aby okna były piękne a domy przytulne'
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Dzlaczego my
+  description: >-
+    Specjalizujemy się w aranżacji najpiękniejszych wnętrz.Z myślą o naszych
+    klientach staramy się tworzyć niepowtarzalne wzory, pasujące do ich stylu.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -68,3 +66,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
