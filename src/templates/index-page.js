@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: 'flex',
-          height: '150px',
+          height: '200px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
@@ -41,10 +41,10 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'none',
-            backgroundColor: 'transparent',
-            color: '#333',
+            backgroundColor: '#ffffff8f',
+            color: 'rgb(47, 27, 15)',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.55em',
           }}
         >
           {title}
@@ -54,10 +54,10 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'none',
-            backgroundColor: 'transparent',
-            color: '#333',
+            backgroundColor: '#ffffff8f',
+            color: 'rgb(78, 53, 40)',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.55em',
           }}
         >
           {subheading}
