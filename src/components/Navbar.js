@@ -9,9 +9,35 @@ const Navbar = class extends React.Component {
     this.state = {
       active: false,
       navBarActiveClass: '',
+      isVisible: false,
+      fromTop: 0,
+      windowHeight:  window.innerHeight
     }
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+  
+  handleScroll = () => {
+    const winScroll =
+    document.body.scrollTop || document.documentElement.scrollTop
+
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight
+
+    const scrolled = window.pageYOffset;
+
+    this.setState({
+      fromTop: scrolled,
+      windowHeight: window.innerHeight,
+    })
+  };
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
@@ -35,7 +61,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-fixed-top is-transparent"
+        className={"navbar is-fixed-top is-transparent" + (this.state.fromTop > this.state.windowHeight ? ' visible':'')}
         role="navigation"
         aria-label="main-navigation"
       >

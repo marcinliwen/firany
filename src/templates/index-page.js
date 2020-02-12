@@ -24,6 +24,7 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `bottom left`,
         backgroundAttachment: `fixed`,
+        flexWrap:`wrap`,
       }}
     >
       <div
