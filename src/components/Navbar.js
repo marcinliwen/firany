@@ -11,7 +11,7 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
       isVisible: false,
       fromTop: 0,
-      windowHeight:  window.innerHeight
+      windowHeight: 0
     }
   }
 
@@ -24,13 +24,7 @@ const Navbar = class extends React.Component {
   }
   
   handleScroll = () => {
-    const winScroll =
-    document.body.scrollTop || document.documentElement.scrollTop
-
-    const height =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight
-
+    
     const scrolled = window.pageYOffset;
 
     this.setState({
