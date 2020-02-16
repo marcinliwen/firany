@@ -9,12 +9,16 @@ const FeatureGrid = ({ gridItems }) => (
         <section className="section" 
         style={{
           position:'relative',
+          dispaly: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
         }}> 
           <div className="has-text-centered" 
           style={{
             position:'absolute',
             width: '100%',
-            top: '0px'
+            top: '50%',
+            transform: 'translateY(-50%)'
           }}> 
             <div
               style={{
