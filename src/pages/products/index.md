@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Nasze Firany
-image: /img/contemporary-cozy-curtain-decoration-462197.jpg
+image: /img/window-2380439_1920.jpg
 heading: Firan i zasłony szyte na miarę
 description: >-
   W naszej firmie skupiamy się na wnętrzu - to tam znajdujemy to co
@@ -51,13 +51,13 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/avinash-kumar-VPRdX_6eujw-unsplash.jpg
+    image: /img/curtain-2716737_1920.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/fabric-4033597_1920.jpg
   image3:
     alt: Coffee beans
-    image: /img/window-2380439_1920.jpg
+    image: /img/fabric-633594_1920.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
