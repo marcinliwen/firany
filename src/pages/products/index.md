@@ -57,7 +57,7 @@ main:
     image: /img/fabric-4033597_1920.jpg
   image3:
     alt: Coffee beans
-    image: /img/window-2892493_1920.jpg
+    image: /img/interior-2570933_1920.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
