@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Nasze Firany
-image: /img/window-2380439_1920.jpg
+image: /img/window-3843114_1920.jpg
 heading: Firan i zasłony szyte na miarę
 description: >-
   W naszej firmie skupiamy się na wnętrzu - to tam znajdujemy to co
