@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Nasze Firany
-image: /img/avinash-kumar-VPRdX_6eujw-unsplash.jpg
+image: /img/window-3843114_1920.jpg
 heading: Firan i zasłony szyte na miarę
 description: >-
   W naszej firmie skupiamy się na wnętrzu - to tam znajdujemy to co
@@ -54,10 +54,10 @@ main:
     image: /img/vidar-nordli-mathisen-J5NyrxS-j_0-unsplash.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/volha-flaxeco-omgRZCmTvUM-unsplash.jpg
+    image: /img/fabric-4033597_1920.jpg
   image3:
     alt: Coffee beans
-    image: /img/andhara-cheryl-2v0T-ZhO7Tk-unsplash.jpg
+    image: /img/window-2892493_1920.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
