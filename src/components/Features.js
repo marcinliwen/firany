@@ -9,27 +9,30 @@ const FeatureGrid = ({ gridItems }) => (
         <section className="section" 
         style={{
           position:'relative',
-          dispaly: 'flex',
+          display: 'flex',
+          flexWrap: 'wrap',
           justifyContent: 'center',
           alignItems: 'center'
         }}> 
           <div className="has-text-centered" 
           style={{
-            position:'absolute',
-            width: '100%',
-            top: '50%',
-            transform: 'translateY(-50%)'
+          
+            width: '50%'
+           
+            
           }}> 
             <div
               style={{
-                width: '200px',
+                width: '100%',
                 display: 'inline-block',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} isFeatures={true}/>
             </div>
           </div>
-          <p>{item.text}</p>
+          <p 
+          style={{padding: '0px 15px'}}
+          >{item.text}</p>
         </section>
       </div>
     ))}
