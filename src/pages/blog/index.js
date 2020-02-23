@@ -24,7 +24,7 @@ export default class BlogIndexPage extends React.Component {
             padding: '0.55em',
             }}
           >
-            Latest Stories
+            Nasze realizacje
           </h1>
         </div>
         <section className="section">
