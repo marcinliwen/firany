@@ -58,6 +58,7 @@ const Navbar = class extends React.Component {
         className={"navbar is-fixed-top is-transparent" + (this.state.fromTop > this.state.windowHeight ? ' visible':'')}
         role="navigation"
         aria-label="main-navigation"
+        style={{background: '#fff', boxShadow: '0 3px 6px rgba(0,0,0,.19)'}}
       >
         <div className="container">
           <div className="navbar-brand">
