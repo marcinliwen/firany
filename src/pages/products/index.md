@@ -10,31 +10,25 @@ description: >-
 intro:
   blurbs:
     - image: /img/measure-tape.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh
+        augue, suscipit a, scelerisque sed, lacinia in, mi.
+
     - image: /img/fabric.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh
+        augue, suscipit a, scelerisque sed, lacinia in, mi.
+
     - image: /img/sewing-machine.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: >+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh
+        augue, suscipit a, scelerisque sed, lacinia in, mi.
+
     - image: /img/thread-spool.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+      text: >+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh
+        augue, suscipit a, scelerisque sed, lacinia in, mi.
+
   heading: Poznaj naszą ofertę
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -43,11 +37,14 @@ intro:
     knowledge to anyone. This is an edit via identity...
 main:
   heading: Wykorzystujemy materiały najwyższej jakości
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  description: >+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue,
+    suscipit a, scelerisque sed, lacinia in, mi.  Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed,
+    lacinia in, mi.
+
+
+
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/curtains-1735102_1920.jpg
@@ -60,13 +57,13 @@ main:
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue,
+      suscipit a, scelerisque sed, lacinia in, mi.
   - author: Philipp Trommler
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue,
+      suscipit a, scelerisque sed, lacinia in, mi.
+full_image: /img/salon-1627001_1920.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-
