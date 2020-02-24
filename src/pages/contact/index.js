@@ -111,6 +111,18 @@ export default class Index extends React.Component {
             </div>
           </div>
         </section>
+        <section className="section">
+          <div className="container">
+            <div className="content">
+              <h3>Jak nas znaleźć:</h3>
+              <p>ul. Przykładowa 1</p>
+              <p>00-000 Gubin</p>
+              <iframe className="gmap"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDI_zdFaLx4vnV2Ypd05BqGnBV_nM_a1Jk&q=Gubin,Polska" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </section>
       </Layout>
       
     )
