@@ -142,7 +142,14 @@ $menu-label-color: $white-ter
 
 .img-position
   background-position: bottom left;
-  
+
+@supports (-webkit-touch-callout: none) 
+    .img-position
+      background-attachment: initial
+      background-size: cover
+    .navbar
+      border-bottom: 1px solid red
+
 .gmap
   width: 100%;
   height: 500px;
