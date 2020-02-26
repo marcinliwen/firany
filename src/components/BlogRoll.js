@@ -7,7 +7,8 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
+     
+    console.log(posts)
     return (
       <div className="columns is-multiline">
         {posts &&
@@ -43,11 +44,12 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
+                  {/*{post.excerpt}*/}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Zobacz więcej →
+                    Zobacz realizację →
                   </Link>
                 </p>
               </article>
@@ -86,9 +88,10 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                description
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 1075, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
