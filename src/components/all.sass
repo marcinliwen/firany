@@ -162,10 +162,21 @@ $menu-label-color: $white-ter
   flex-basis: 100%;
   margin: 0;
 .notification 
-    background-color: whitesmoke;
-    border-radius: 4px;
-    padding: 1.25rem;
-    position: relative;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  padding: 1.25rem;
+  position: relative;
+.slick-prev, .slick-next
+  background: #333
+.slick-prev
+  background: #333
+  &:before
+    color: #2f1b0f;
+
+.slick-next
+  &:before
+    color: #2f1b0f;
+
 
 // responsiveness
 +tablet-only
@@ -199,3 +210,4 @@ $menu-label-color: $white-ter
   section.section.section--gradient 
     padding: 3rem 0;
 
+  

@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 //import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import SimpleSlider from '../components/Slider'
 
 export const ProductPageTemplate = ({
   image,
@@ -83,6 +84,7 @@ export const ProductPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
+              <SimpleSlider />
               <div
                 className="full-width-image-container"
                 style={{
