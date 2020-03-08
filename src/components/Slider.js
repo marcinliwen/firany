@@ -65,22 +65,22 @@ export default class SimpleSlider extends Component {
        <h3 className="has-text-weight-semibold is-size-3" >Przykładowe produkty</h3>
         <Slider {...settings}>
           <div>
-            <img src={require("../../public/img/f1.jpg")} alt="f1"/>
+            <img src={require("../../src/img/f1.jpg")} alt="f1"/>
           </div>
           <div>
-          <img src={require("../../public/img/f2.jpg")} alt="f1"/>
+          <img src={require("../../src/img/f2.jpg")} alt="f1"/>
           </div>
           <div>
-          <img src={require("../../public/img/f3.jpg")} alt="f1"/>
+          <img src={require("../../src/img/f3.jpg")} alt="f1"/>
           </div>
           <div>
-          <img src={require("../../public/img/f4.jpg")} alt="f1"/>
+          <img src={require("../../src/img/f4.jpg")} alt="f1"/>
           </div>
           <div>
-          <img src={require("../../public/img/f5.jpg")} alt="f1"/>
+          <img src={require("../../src/img/f5.jpg")} alt="f1"/>
           </div>
           <div>
-          <img src={require("../../public/img/f6.jpg")} alt="f1"/>
+          <img src={require("../../src/img/f6.jpg")} alt="f1"/>
           </div>
         </Slider>
       
