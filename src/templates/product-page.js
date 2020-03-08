@@ -85,7 +85,7 @@ export const ProductPageTemplate = ({
               </div>
               <Testimonials testimonials={testimonials} />
               <SimpleSlider />
-              <div
+              {/*<div
                 className="full-width-image-container"
                 style={{
                   backgroundImage: `url(${
@@ -94,7 +94,7 @@ export const ProductPageTemplate = ({
                       : fullImage
                   })`,
                 }}
-              />
+              />*/}
              {/* <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
